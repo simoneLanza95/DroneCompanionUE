@@ -1,5 +1,11 @@
 # Visual Studio 2015 user specific files
 .vs/
+*.vsconfig
+*.ddargs.json
+*.DotSettings.user
+
+# Idea jetbrain user specific files
+.idea/
 
 # Compiled Object files
 *.slo
@@ -15,6 +21,11 @@
 *.so
 *.dylib
 *.dll
+*.pdb
+*.exp
+*.lib
+*.target
+*.modules
 
 # Fortran module files
 *.mod
@@ -73,3 +84,15 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Wwise cache / temp
+.WwiseCache/
+.cache/
+*.log
+
+# Local user settings
+*.user
+*.session
+
+# Generated intermediates
+GeneratedSoundBanks/**/Metadata
