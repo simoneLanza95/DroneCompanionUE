@@ -25,19 +25,12 @@ public class DroneCompanion : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"DroneCompanion",
-			"DroneCompanion/Variant_Platforming",
-			"DroneCompanion/Variant_Platforming/Animation",
 			"DroneCompanion/Variant_Combat",
 			"DroneCompanion/Variant_Combat/AI",
 			"DroneCompanion/Variant_Combat/Animation",
 			"DroneCompanion/Variant_Combat/Gameplay",
 			"DroneCompanion/Variant_Combat/Interfaces",
-			"DroneCompanion/Variant_Combat/UI",
-			"DroneCompanion/Variant_SideScrolling",
-			"DroneCompanion/Variant_SideScrolling/AI",
-			"DroneCompanion/Variant_SideScrolling/Gameplay",
-			"DroneCompanion/Variant_SideScrolling/Interfaces",
-			"DroneCompanion/Variant_SideScrolling/UI"
+			"DroneCompanion/Variant_Combat/UI"
 		});
 
 		// Uncomment if you are using Slate UI
